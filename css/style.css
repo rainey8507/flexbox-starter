@@ -1,0 +1,19 @@
+body {
+    background-image: url("/img/wow.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    background: #f2544b;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 3.125em;
+}
