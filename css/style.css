@@ -17,3 +17,21 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     padding: 0 3.125em;
 }
+/*** For Tablet's screen ***/
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+/*** For all laptop and all monitors larger than 1200px wide***/
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+/*** For all mobile devices ***/
+@media screen and (min-width: 320px) {
+    h1 {
+        font-size: 3em;
+    }
+}
